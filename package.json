@@ -1,0 +1,45 @@
+{
+  "name": "tauruscms",
+  "version": "0.0.0",
+  "description": "A Content Management System build in Node.js!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mealeyst/TaurusCMS.git"
+  },
+  "keywords": [
+    "node",
+    "cms",
+    "js",
+    "taurus"
+  ],
+  "author": "Shawn Mealey <mealeyst@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ellie Strejlau",
+      "email": "ellie.strejlau@gmail.com"
+    },
+    {
+      "name": "Ben Helmer",
+      "email": "atomox@gmail.com"
+    },
+    {
+      "name": "Jason de Oliveira",
+      "email": "jason.deoliveira@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mealeyst/TaurusCMS/issues"
+  },
+  "homepage": "https://github.com/mealeyst/TaurusCMS#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "hapi": "^12.1.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4"
+  }
+}
