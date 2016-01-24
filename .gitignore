@@ -1,1 +1,5 @@
+.floo
+.flooignore
 node_modules/
+coverage/
+dist/
