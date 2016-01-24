@@ -1,9 +1,10 @@
 'use strict';
 
 class Base {
+
 	constructor() {
 		if (new.target === Base) {
-			throw new TypeError("Cannot construct Base instances directly");
+			throw new TypeError('Abstract class "Base" cannot be instantiated directly.');
 		}
 	}
 }

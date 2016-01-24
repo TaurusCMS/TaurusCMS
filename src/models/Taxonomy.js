@@ -3,6 +3,6 @@
 class Taxonomy extends Base {
 
 	constructor() {
-
+		super();
 	}
 }

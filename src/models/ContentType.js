@@ -3,6 +3,6 @@
 class ContentType extends Base {
 
 	constructor() {
-
+		super();
 	}
 }
