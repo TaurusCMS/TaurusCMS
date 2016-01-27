@@ -7,7 +7,8 @@
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha  -- --recursive dist/test",
     "pretest": "./node_modules/.bin/babel --presets es2015,stage-0 src -d dist",
     "posttest": "./node_modules/.bin/istanbul check-coverage --statements 95 --branches 80",
-    "prebuild": "npm run test"
+    "prebuild": "npm run test",
+    "transpile": "./node_modules/.bin/babel --presets es2015,stage-0 src -d dist"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,9 @@
     }
   ],
   "license": "MIT",
+  "bin": {
+    "taurus": "./dist/bin/index.js"
+  },
   "bugs": {
     "url": "https://github.com/mealeyst/TaurusCMS/issues"
   },
