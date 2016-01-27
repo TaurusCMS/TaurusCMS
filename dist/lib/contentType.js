@@ -4,8 +4,5 @@
  * [contentType description]
  * @type {Object}
  */
-let contentType = {
 
-
-
-};
+var contentType = {};
