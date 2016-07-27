@@ -4,7 +4,7 @@
   "description": "A Content Management System build in Node.js!",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register ./test/**/*.js",
+    "test": "mocha --compilers js:babel-register ./test/**/**/*.js",
     "test:dev": "npm run test -- --watch",
     "prebuild": "npm run test"
   },
