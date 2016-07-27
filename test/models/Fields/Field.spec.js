@@ -36,7 +36,7 @@ describe('Class (Field)', () => {
   it('Should return a JSON string of the field settings', () => {
     let props = {name: 'Test Field', uuid: 'test_field', type: 'test', length: 137}
     let testField = new Field(props)
-    expect(testField.get()).to.equal(JSON.stringify(props))
+    expect(testField.get()).to.eql(JSON.stringify(props))
   })
 
   it('Should allow for properties to be updated', () => {
@@ -45,8 +45,8 @@ describe('Class (Field)', () => {
       {name: 'New Test Field', uuid: 'new_test_field', type: 'new-test', length: 23}
     ]
     let testField = new Field(props[0])
-    expect(testField.get()).to.equal(JSON.stringify(props[0]))
+    expect(testField.get()).to.eql(JSON.stringify(props[0]))
     testField.set(props[1])
-    expect(testField.get()).to.equal(JSON.stringify(props[1]))
+    expect(testField.get()).to.eql(JSON.stringify(props[1]))
   })
 })
