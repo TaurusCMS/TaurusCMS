@@ -6,5 +6,6 @@
   "globals" : {
     "expect" : false,
     "should" : false,
+    "sinon"  : false
   }
 }
